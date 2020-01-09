@@ -20,8 +20,6 @@ import java.lang.annotation.Target;
  * elasticjob开启
  *
  * @author linzx
- * @Date 2020/1/9
- * @Since 1.0.0
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)

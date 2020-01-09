@@ -20,8 +20,6 @@ import org.springframework.util.ClassUtils;
  * register job bean
  *
  * @author linzx
- * @Date 2020/1/9
- * @Since 1.0.0
  */
 public class ElasticJobImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar {
 

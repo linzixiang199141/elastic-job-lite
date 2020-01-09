@@ -14,8 +14,6 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
  * zookeeper config properties
  *
  * @author linzx
- * @Date 2020/1/9
- * @Since 1.0.0
  */
 @Data
 @ConfigurationProperties(prefix = "elastic-job")

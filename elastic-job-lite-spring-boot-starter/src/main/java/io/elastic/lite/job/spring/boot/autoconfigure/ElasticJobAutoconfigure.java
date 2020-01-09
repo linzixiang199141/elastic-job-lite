@@ -21,8 +21,6 @@ import org.springframework.context.annotation.Bean;
  * job annotation autoconfigure
  *
  * @author linzx
- * @Date 2020/1/9
- * @Since 1.0.0
  */
 @EnableConfigurationProperties(ElasticJobProperties.class)
 @Slf4j

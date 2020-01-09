@@ -11,8 +11,6 @@ package io.elastic.lite.job.spring.boot.config;
  * JobAttributeTag
  *
  * @author linzx
- * @Date 2020/1/9
- * @Since 1.0.0
  */
 public class JobAttributeTag {
     public static final String CRON = "cron";

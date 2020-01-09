@@ -42,8 +42,6 @@ import java.util.Map;
  * parse annotaion job config
  *
  * @author linzx
- * @Date 2020/1/9
- * @Since 1.0.0
  */
 @Slf4j
 public class ElasticJobParser implements ApplicationContextAware, EnvironmentAware {
