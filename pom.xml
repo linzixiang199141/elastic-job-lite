@@ -583,7 +583,7 @@
         </repository>
     </repositories>
     
-    <url>https://github.com/elasticjob/elastic-job</url>
+    <url>https://github.com/linzixiang199141/elastic-job-lite</url>
     <licenses>
         <license>
             <name>Apache License 2.0</name>
