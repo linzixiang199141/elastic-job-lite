@@ -609,11 +609,11 @@
         </license>
     </licenses>
     
-    <scm>
-        <connection>scm:git:https://github.com/elasticjob/elastic-job.git</connection>
-        <developerConnection>scm:git:git@github.com:elasticjob/elastic-job.git</developerConnection>
-        <url>https://github.com/elasticjob/elastic-job</url>
-    </scm>
+<!--    <scm>-->
+<!--        <connection>scm:git:https://github.com/elasticjob/elastic-job.git</connection>-->
+<!--        <developerConnection>scm:git:git@github.com:elasticjob/elastic-job.git</developerConnection>-->
+<!--        <url>https://github.com/elasticjob/elastic-job</url>-->
+<!--    </scm>-->
     
     <mailingLists>
         <mailingList>
@@ -642,13 +642,23 @@
     </developers>
     
     <distributionManagement>
-        <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-        </snapshotRepository>
+<!--        <snapshotRepository>-->
+<!--            <id>sonatype-nexus-snapshots</id>-->
+<!--            <url>https://oss.sonatype.org/content/repositories/snapshots</url>-->
+<!--        </snapshotRepository>-->
+<!--        <repository>-->
+<!--            <id>sonatype-nexus-releases</id>-->
+<!--            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>-->
+<!--        </repository>-->
         <repository>
-            <id>sonatype-nexus-releases</id>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+            <id>releases</id>
+            <name>nexus distribution snapshot repository</name>
+            <url>http://nexus.hbc.tech/nexus/content/repositories/releases/</url>
         </repository>
+        <snapshotRepository>
+            <id>snapshots</id>
+            <name>nexus distribution snapshot repository</name>
+            <url>http://nexus.hbc.tech/nexus/content/repositories/snapshots/</url>
+        </snapshotRepository>
     </distributionManagement>
 </project>
