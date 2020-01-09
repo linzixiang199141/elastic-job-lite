@@ -6,7 +6,6 @@
         <groupId>io.elasticjob</groupId>
         <artifactId>elastic-job-lite</artifactId>
         <version>1.0.0-SNAPSHOT</version>
-        <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <artifactId>elastic-job-lite-spring-boot-starter</artifactId>
     <name>elastic-job-lite-spring-boot-starter</name>
