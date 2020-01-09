@@ -616,17 +616,6 @@
 <!--        <url>https://github.com/elasticjob/elastic-job</url>-->
 <!--    </scm>-->
     
-    <mailingLists>
-        <mailingList>
-            <name>ZhangLiang</name>
-            <post>zhangliang@dangdang.com</post>
-        </mailingList>
-        <mailingList>
-            <name>CaoHao</name>
-            <post>caohao@dangdang.com</post>
-        </mailingList>
-    </mailingLists>
-    
     <developers>
         <developer>
             <id>zhangliang</id>
@@ -638,6 +627,12 @@
             <id>caohao</id>
             <name>CaoHao</name>
             <email>caohao@dangdang.com</email>
+            <timezone>8</timezone>
+        </developer>
+        <developer>
+            <id>linzx</id>
+            <name>linzixiang</name>
+            <email>zixianglin@huangbaoche.com</email>
             <timezone>8</timezone>
         </developer>
     </developers>
