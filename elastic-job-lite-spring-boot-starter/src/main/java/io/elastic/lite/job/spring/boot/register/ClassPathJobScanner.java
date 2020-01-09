@@ -18,7 +18,7 @@ import java.util.Set;
 /**
  * scanner
  *
- * @Author linzx
+ * @author linzx
  * @Date 2020/1/9
  * @Since 1.0.0
  */

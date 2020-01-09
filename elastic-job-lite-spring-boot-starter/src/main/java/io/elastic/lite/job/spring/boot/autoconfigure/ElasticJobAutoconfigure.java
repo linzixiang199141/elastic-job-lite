@@ -20,7 +20,7 @@ import org.springframework.context.annotation.Bean;
 /**
  * job annotation autoconfigure
  *
- * @Author linzx
+ * @author linzx
  * @Date 2020/1/9
  * @Since 1.0.0
  */

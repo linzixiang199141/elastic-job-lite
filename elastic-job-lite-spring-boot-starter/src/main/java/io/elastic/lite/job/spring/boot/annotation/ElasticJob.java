@@ -13,7 +13,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * @Author linzx
+ * @author linzx
  * @Date 2020/1/9
  * @Since 1.0.0
  */

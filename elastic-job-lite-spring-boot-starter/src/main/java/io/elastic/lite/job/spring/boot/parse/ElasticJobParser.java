@@ -41,7 +41,7 @@ import java.util.Map;
 /**
  * parse annotaion job config
  *
- * @Author linzx
+ * @author linzx
  * @Date 2020/1/9
  * @Since 1.0.0
  */
