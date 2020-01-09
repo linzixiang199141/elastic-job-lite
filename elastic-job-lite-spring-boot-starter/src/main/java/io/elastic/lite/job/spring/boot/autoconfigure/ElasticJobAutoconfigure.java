@@ -49,7 +49,7 @@ public class ElasticJobAutoconfigure {
         zookeeperConfiguration.setMaxRetries(zooKeeperProperties.getMaxRetries());
         zookeeperConfiguration.setMaxSleepTimeMilliseconds(zooKeeperProperties.getMaxSleepTimeMilliseconds());
         zookeeperConfiguration.setSessionTimeoutMilliseconds(zooKeeperProperties.getSessionTimeoutMilliseconds());
-        log.debug("EJOB：初始化Zookeeper客户端,{}", zooKeeperProperties);
+        log.debug("elastic job：init Zookeeper,{}", zooKeeperProperties);
         return new ZookeeperRegistryCenter(zookeeperConfiguration);
     }
 
