@@ -5,10 +5,10 @@
  * Date:     2020/1/9 10:28 上午
  * History:
  */
-package io.elastic.lite.job.spring.boot.parse;
+package io.elasticjob.lite.spring.boot.parse;
 
-import io.elastic.lite.job.spring.boot.annotation.ElasticJob;
-import io.elastic.lite.job.spring.boot.config.JobAttributeTag;
+import io.elasticjob.lite.spring.boot.annotation.ElasticJob;
+import io.elasticjob.lite.spring.boot.config.JobAttributeTag;
 import io.elasticjob.lite.api.dataflow.DataflowJob;
 import io.elasticjob.lite.api.script.ScriptJob;
 import io.elasticjob.lite.api.simple.SimpleJob;

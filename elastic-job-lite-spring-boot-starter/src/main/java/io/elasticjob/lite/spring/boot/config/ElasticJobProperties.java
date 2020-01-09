@@ -5,7 +5,7 @@
  * Date:     2020/1/9 10:25 上午
  * History:
  */
-package io.elastic.lite.job.spring.boot.config;
+package io.elasticjob.lite.spring.boot.config;
 
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;

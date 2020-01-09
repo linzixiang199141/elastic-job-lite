@@ -5,10 +5,10 @@
  * Date:     2020/1/9 10:34 上午
  * History:
  */
-package io.elastic.lite.job.spring.boot.register;
+package io.elasticjob.lite.spring.boot.register;
 
-import io.elastic.lite.job.spring.boot.annotation.EnableElasticJob;
-import io.elastic.lite.job.spring.boot.autoconfigure.ElasticJobAutoconfigure;
+import io.elasticjob.lite.spring.boot.annotation.EnableElasticJob;
+import io.elasticjob.lite.spring.boot.autoconfigure.ElasticJobAutoconfigure;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
@@ -32,7 +32,7 @@ public class ElasticJobImportBeanDefinitionRegistrar implements ImportBeanDefini
         AnnotationAttributes annoAttrs = AnnotationAttributes.fromMap(annotationMetadata.getAnnotationAttributes(EnableElasticJob.class.getName()));
 
         String[] packages = annoAttrs.getStringArray("value");
-        if (packages == null) {
+        if (packages == null || packages.length == 0) {
             packages = new String[1];
             packages[0] = ClassUtils.getPackageName(annotationMetadata.getClassName());
         }

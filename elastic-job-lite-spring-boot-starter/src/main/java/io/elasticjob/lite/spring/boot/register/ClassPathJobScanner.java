@@ -5,9 +5,9 @@
  * Date:     2020/1/9 10:37 上午
  * History:
  */
-package io.elastic.lite.job.spring.boot.register;
+package io.elasticjob.lite.spring.boot.register;
 
-import io.elastic.lite.job.spring.boot.annotation.ElasticJob;
+import io.elasticjob.lite.spring.boot.annotation.ElasticJob;
 import org.springframework.beans.factory.config.BeanDefinitionHolder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.context.annotation.ClassPathBeanDefinitionScanner;

@@ -5,10 +5,10 @@
  * Date:     2020/1/9 10:32 上午
  * History:
  */
-package io.elastic.lite.job.spring.boot.autoconfigure;
+package io.elasticjob.lite.spring.boot.autoconfigure;
 
-import io.elastic.lite.job.spring.boot.config.ElasticJobProperties;
-import io.elastic.lite.job.spring.boot.parse.ElasticJobParser;
+import io.elasticjob.lite.spring.boot.config.ElasticJobProperties;
+import io.elasticjob.lite.spring.boot.parse.ElasticJobParser;
 import io.elasticjob.lite.reg.zookeeper.ZookeeperConfiguration;
 import io.elasticjob.lite.reg.zookeeper.ZookeeperRegistryCenter;
 import lombok.extern.slf4j.Slf4j;

@@ -5,7 +5,7 @@
  * Date:     2020/1/9 10:13 上午
  * History:
  */
-package io.elastic.lite.job.spring.boot.annotation;
+package io.elasticjob.lite.spring.boot.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

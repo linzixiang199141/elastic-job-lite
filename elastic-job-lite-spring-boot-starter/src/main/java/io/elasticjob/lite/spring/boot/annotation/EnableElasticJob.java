@@ -5,9 +5,9 @@
  * Date:     2020/1/9 10:12 上午
  * History:
  */
-package io.elastic.lite.job.spring.boot.annotation;
+package io.elasticjob.lite.spring.boot.annotation;
 
-import io.elastic.lite.job.spring.boot.register.ElasticJobImportBeanDefinitionRegistrar;
+import io.elasticjob.lite.spring.boot.register.ElasticJobImportBeanDefinitionRegistrar;
 import org.springframework.context.annotation.Import;
 import org.springframework.core.annotation.AliasFor;
 
